@@ -1,4 +1,2 @@
 joomla-test
 ===========
-
-Test Projekt
