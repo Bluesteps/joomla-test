@@ -8,13 +8,15 @@
  */
 defined('_JEXEC') or die;
 
-jimport('joomla.application.component.controller');
-$controller = JController::getInstance('test');
+jimport('joomla.application.component.view');
 
-$input = JFactory::getApplication()->input;
-$controller->execute($input->get('task'));
-
-
-/* echo "Hello World and all the rest!"; */
-
+class testViewTest extends JView
+{
+    
+    function display($tpl = null)
+    {
+        parent::display($tpl);
+    }
+    
+}
 ?>

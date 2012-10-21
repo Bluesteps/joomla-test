@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @package     Joomla.Platform
  * @subpackage  Database
@@ -9,12 +10,8 @@
 defined('_JEXEC') or die;
 
 jimport('joomla.application.component.controller');
-$controller = JController::getInstance('test');
 
-$input = JFactory::getApplication()->input;
-$controller->execute($input->get('task'));
-
-
-/* echo "Hello World and all the rest!"; */
+class testController extends JController
+{}
 
 ?>
